@@ -1,6 +1,5 @@
 def binary_search(list, item):
     low = 0
-    half = 0
     high = len(list) -1
     while low <= high:
         half = (low + high) // 2
